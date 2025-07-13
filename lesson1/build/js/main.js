@@ -1,3 +1,10 @@
 "use strict";
 let username = "vinh learn typeScript";
 console.log(username);
+let a = 20;
+let b = "10";
+let c = 30;
+console.log(a);
+console.log(b);
+// console.log(a / b);
+// console.log(c * b);

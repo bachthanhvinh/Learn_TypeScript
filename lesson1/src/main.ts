@@ -1,2 +1,9 @@
 let username = "vinh learn typeScript";
 console.log(username);
+let a: number = 20;
+let b: string = "10";
+let c: number = 30;
+console.log(a);
+console.log(b);
+// console.log(a / b);
+// console.log(c * b);
