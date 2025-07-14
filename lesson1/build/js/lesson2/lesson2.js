@@ -1,19 +1,19 @@
 "use strict";
 ///////// basic Types ///////////
-let myName = "vinh";
-let meaningOflife;
-let isLoading;
-let album;
-myName = "thanhvinh";
-meaningOflife = 42;
-isLoading = true;
-album = 2004;
-console.log(myName);
-console.log(meaningOflife);
-console.log(isLoading);
-const sum = (a, b) => {
-    return a + b;
-};
-let postId;
-let isActive;
-let re = /\w+/g;
+// let myName: string = "vinh";
+// let meaningOflife: number;
+// let isLoading: boolean;
+// let album: any;
+// myName = "thanhvinh";
+// meaningOflife = 42;
+// isLoading = true;
+// album = 2004;
+// console.log(myName);
+// console.log(meaningOflife);
+// console.log(isLoading);
+// const sum = (a: number, b: string) => {
+//   return a + b;
+// };
+// let postId: string | number;
+// let isActive: number | boolean;
+// let re: RegExp = /\w+/g;
