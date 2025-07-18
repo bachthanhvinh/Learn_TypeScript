@@ -1,6 +1,6 @@
+"use strict";
 // class Coder {
 //   secondLang!: string
-
 //   constructor(
 //     public readonly name: string,
 //     public music: string,
@@ -16,12 +16,10 @@
 //     return `Hello, I'm ${this.age}`
 //   }
 // }
-
 // const Dave = new Coder("vinh", "chill", 21)
 // // console.log(Dave.getAge())
 // // console.log(Dave.age);
 // // console.log(Dave.lang);
-
 // class WebDev extends Coder {
 //   constructor(
 //     public computer: string,
@@ -40,7 +38,6 @@
 // console.log(sara.getLang())
 // // console.log(sara.age);
 // // console.log(sara.lang);
-
 // ///////////////////////////////////////
 // interface Musician {
 //   name: string
@@ -53,7 +50,6 @@
 //   constructor(name: string, instrument: string) {
 //     (this.name = name), (this.instrument = instrument)
 //   }
-
 //   play(action: string) {
 //     return `${this.name} ${action} the ${this.instrument}`
 //   }
@@ -62,12 +58,10 @@
 // console.log(Page.play("bop bop"))
 // class Peeps {
 //   static count: number = 0;
-
 //   static getCount(): number {
 //     return Peeps.count
 //   }
 //   public id: number
-
 //   constructor(public name: string) {
 //     this.name = name
 //     this.id = ++Peeps.count
@@ -76,22 +70,17 @@
 // const vinh = new Peeps("vinh")
 // const thanhvinh = new Peeps("thanhvinh")
 // const bachthanhvinh = new Peeps("bachthanhvinh")
-
 // // console.log(vinh.id);
 // // console.log(thanhvinh.id);
 // // console.log(bachthanhvinh.id);
 // // console.log(Peeps.count);
 // // console.log(Peeps.getCount());
-
 // /////////////////
-
 // class Bands {
 //   private dataState: string[];
-
 //   constructor() {
 //     this.dataState = [];
 //   }
-
 //   public get getData(): string[] {
 //     return this.dataState;
 //   }
@@ -101,9 +90,7 @@
 //     } else throw new Error("Param is not an array of strings")
 //   }
 // }
-
 // const myBand = new Bands();
-
 // myBand.setData = ["vinh", "thanhvinh", "hoclaptrinh"]
 // myBand.setData = [...myBand.getData, "TestVinh"]
 // // myBand.setData = ["thanhvinh", 23];
