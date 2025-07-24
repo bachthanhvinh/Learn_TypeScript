@@ -3,10 +3,12 @@
 // type Three = "hello";
 
 // // convert to more or less specific
+// type casting (ép kiểu) 
 // let a: One = "hello";
 // let b = a as Two; // less specific
 // let c = a as Three; // more specific
 
+// type assertion (ép kiểu)
 // let d = <One>"world";
 // let e = <string | number>"world";
 
